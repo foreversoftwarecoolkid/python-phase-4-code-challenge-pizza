@@ -1,0 +1,76 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "RESTAURANT-PIZZA-CHALLENGE",
+    "collectionId": "8816131e-872c-4d43-8760-2ca91ae975de",
+    "dateExported": "2024-07-06T16:27:36.745Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "d64e3b6b-5ccc-4d80-874e-da306b3eef78",
+            "colId": "8816131e-872c-4d43-8760-2ca91ae975de",
+            "containerId": "",
+            "name": "http://127.0.0.1:5000/restaurants",
+            "url": "http://127.0.0.1:5000/restaurants",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2024-07-06T12:46:23.345Z",
+            "modified": "2024-07-06T15:59:54.185Z",
+            "headers": []
+        },
+        {
+            "_id": "cd334a26-9f3f-4f62-a0ca-916b10eca3ee",
+            "colId": "8816131e-872c-4d43-8760-2ca91ae975de",
+            "containerId": "",
+            "name": "get_restaurant/id",
+            "url": "http://127.0.0.1:5000/restaurants/1",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2024-07-06T13:52:00.071Z",
+            "modified": "2024-07-06T16:00:12.110Z",
+            "headers": []
+        },
+        {
+            "_id": "93ccfb48-1b21-4302-9361-4d10411ff5d1",
+            "colId": "8816131e-872c-4d43-8760-2ca91ae975de",
+            "containerId": "",
+            "name": "Delete Restautant",
+            "url": "http://127.0.0.1:5000/restaurants/17",
+            "method": "DELETE",
+            "sortNum": 30000,
+            "created": "2024-07-06T13:54:13.408Z",
+            "modified": "2024-07-06T16:02:17.344Z",
+            "headers": []
+        },
+        {
+            "_id": "68e0b6d9-b1b3-4923-a526-41c93f844f81",
+            "colId": "8816131e-872c-4d43-8760-2ca91ae975de",
+            "containerId": "",
+            "name": "get_all_pizzas",
+            "url": "http://127.0.0.1:5000/pizzas",
+            "method": "GET",
+            "sortNum": 40000,
+            "created": "2024-07-06T13:57:48.579Z",
+            "modified": "2024-07-06T16:00:44.081Z",
+            "headers": []
+        },
+        {
+            "_id": "ea696052-93d3-4310-88a7-9b62560a63a4",
+            "colId": "8816131e-872c-4d43-8760-2ca91ae975de",
+            "containerId": "",
+            "name": "Create New Restaurant Pizzas",
+            "url": "http://127.0.0.1:5000/restaurant_pizzas",
+            "method": "POST",
+            "sortNum": 50000,
+            "created": "2024-07-06T16:00:55.246Z",
+            "modified": "2024-07-06T16:00:55.246Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"price\": 10,\n  \"pizza_id\": 5,\n  \"restaurant_id\": 12\n}",
+                "form": []
+            }
+        }
+    ],
+    "ref": "R25Qruvoq1aQ5f8gXv1UtAEL2DB6vBUa7Ifjf7ghcrifEA8XAg3dp4kX7Rgu_JT1zElFOvY9WU5xUbNksUdDuw"
+}
